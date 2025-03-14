@@ -1,58 +1,91 @@
 name: Daily Auto Commit
 on:
   schedule:
-    # Fixed cron syntax - needs 5 asterisks
     - cron: '0 12 * * *'
-  
-  # Allow manual trigger for testing
   workflow_dispatch:
+
 jobs:
   auto-commit:
     runs-on: ubuntu-latest
-    # Add explicit permissions
     permissions:
       contents: write
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       
-      - name: Setup Git User
+      - name: Setup Git
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
       
-      - name: Create/Update Daily Log and README
+      - name: Update Files
         run: |
-          # Get the date and quote
-          CURRENT_DATE=$(date)
-          SYSTEM_INFO=$(uname -a)
+          # Get quote
           QUOTE_DATA=$(curl -s https://api.quotable.io/random)
           QUOTE_CONTENT=$(echo "$QUOTE_DATA" | jq -r '.content')
           QUOTE_AUTHOR=$(echo "$QUOTE_DATA" | jq -r '.author')
+          DATE=$(date)
           
-          # Update the log file
-          echo "Last updated: $CURRENT_DATE" > update_log.txt
-          echo "System info: $SYSTEM_INFO" >> update_log.txt
-          echo "Random quote of the day: $QUOTE_CONTENT - $QUOTE_AUTHOR" >> update_log.txt
+          # Update log file
+          echo "Last updated: $DATE" > update_log.txt
+          echo "System info: $(uname -a)" >> update_log.txt
+          echo "Quote: $QUOTE_CONTENT - $QUOTE_AUTHOR" >> update_log.txt
           
-          # Use awk to extract everything before the quote section
-          awk '/## Today'"'"'s Quote/{exit} {print}' README.md > temp_readme.md || true
-          
-          # Add the new quote section
-          echo "## Today's Quote" >> temp_readme.md
-          echo "" >> temp_readme.md
-          echo "> $QUOTE_CONTENT" >> temp_readme.md
-          echo ">" >> temp_readme.md
-          echo "> — *$QUOTE_AUTHOR*" >> temp_readme.md
-          echo "" >> temp_readme.md
-          echo "Last updated: $CURRENT_DATE" >> temp_readme.md
-          
-          # Replace the old README with the new one
-          mv temp_readme.md README.md || true
+          # Create a copy of the original README if it exists
+          if [ -f README.md ]; then
+            # Create new README content
+            cat > new_readme.md << EOF
+# Daily Auto Commit
+This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
+## What it does
+- Runs automatically every day at 12:00 UTC
+- Updates a log file with the current date and system information
+- Fetches a random quote from an API
+- **Updates this README with the quote of the day**
+- Commits and pushes these changes automatically
+## Why I built this
+This project showcases my technical abilities with:
+- GitHub Actions and CI/CD workflows
+- Automation scripts
+- Git operations from within workflows
+- Working with external APIs
+- Dynamic content generation
+- *Most importantly, it shows how green boxes really dont mean much in terms of skills.*
+## How it works
+The GitHub Action workflow:
+1. Runs on a schedule (daily)
+2. Fetches a random inspirational quote
+3. Updates both a log file and this README
+4. Commits and pushes the changes
+Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)
+## Today's Quote
+
+> $QUOTE_CONTENT
+> 
+> — *$QUOTE_AUTHOR*
+
+Last updated: $DATE
+EOF
+            mv new_readme.md README.md
+          else
+            # Create basic README if it doesn't exist
+            cat > README.md << EOF
+# Daily Auto Commit
+
+This repository demonstrates automation with GitHub Actions.
+
+## Today's Quote
+
+> $QUOTE_CONTENT
+> 
+> — *$QUOTE_AUTHOR*
+
+Last updated: $DATE
+EOF
+          fi
       
-      - name: Commit and Push
+      - name: Commit changes
         run: |
           git add .
-          git commit -m "this project cheeses my github" || echo "No changes to commit"
+          git commit -m "this project cheeses my github" || true
           git push
