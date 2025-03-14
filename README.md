@@ -1,40 +1,30 @@
 # Daily Auto Commit
-
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
-
 ## What it does
-
 - Runs automatically every day at 12:00 UTC
 - Updates a log file with the current date and system information
 - Fetches a random quote from an API
 - **Updates this README with the quote of the day**
 - Commits and pushes these changes automatically
-
 ## Why I built this
-
 This project showcases my technical abilities with:
 - GitHub Actions and CI/CD workflows
 - Automation scripts
 - Git operations from within workflows
 - Working with external APIs
 - Dynamic content generation
-
 - *Most importantly, it shows how green boxes really dont mean much in terms of skills.*
-
 ## How it works
-
 The GitHub Action workflow:
 1. Runs on a schedule (daily)
 2. Fetches a random inspirational quote
 3. Updates both a log file and this README
 4. Commits and pushes the changes
-
 Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)
-
 ## Today's Quote
 
-> Success is not final, failure is not fatal: It is the courage to continue that counts.
 > 
-> — *Winston Churchill*
+>
+> — **
 
-Last updated: Wed Mar 13 12:00:00 UTC 2025
+Last updated: Fri Mar 14 05:06:57 UTC 2025
