@@ -23,10 +23,28 @@ jobs:
           cat > update.sh << 'ENDSCRIPT'
           #!/bin/bash
           
-          # Get quote
-          QUOTE_DATA=$(curl -s https://api.quotable.io/random)
-          QUOTE_CONTENT=$(echo "$QUOTE_DATA" | jq -r '.content')
-          QUOTE_AUTHOR=$(echo "$QUOTE_DATA" | jq -r '.author')
+          # Get quote with better error handling
+          echo "Fetching quote..."
+          QUOTE_RESPONSE=$(curl -s https://api.quotable.io/random)
+          
+          # Debug - see what we got
+          echo "API Response: $QUOTE_RESPONSE"
+          
+          # Check if we got a valid JSON response
+          if echo "$QUOTE_RESPONSE" | jq -e . >/dev/null 2>&1; then
+            echo "Valid JSON response received"
+            QUOTE_CONTENT=$(echo "$QUOTE_RESPONSE" | jq -r '.content')
+            QUOTE_AUTHOR=$(echo "$QUOTE_RESPONSE" | jq -r '.author')
+          else
+            echo "Invalid response, using fallback quote"
+            QUOTE_CONTENT="Every day is a chance to automate something new."
+            QUOTE_AUTHOR="A Wise Developer"
+          fi
+          
+          # Debug - print extracted values
+          echo "Quote content: $QUOTE_CONTENT"
+          echo "Quote author: $QUOTE_AUTHOR"
+          
           DATE=$(date)
           
           # Update log file
@@ -56,8 +74,7 @@ jobs:
           echo "1. Runs on a schedule (daily)" >> README.md
           echo "2. Fetches a random inspirational quote" >> README.md
           echo "3. Updates both a log file and this README" >> README.md
-          echo "4. Commits and pushes the changes" >> README.md
-          echo "Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)" >> README.md
+          echo "4. Commits and pushes the changes Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)" >> README.md
           echo "## Today's Quote" >> README.md
           echo "" >> README.md
           echo "> $QUOTE_CONTENT" >> README.md
