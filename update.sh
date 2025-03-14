@@ -51,7 +51,7 @@ echo "The GitHub Action workflow:" >> README.md
 echo "1. Runs on a schedule (daily)" >> README.md
 echo "2. Fetches a random inspirational quote" >> README.md
 echo "3. Updates both a log file and this README" >> README.md
-echo "4. Commits and pushes the changes Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)" >> README.md
+echo "4. Commits and pushes the changes" >> README.md
 echo "## Today's Quote" >> README.md
 echo "" >> README.md
 echo "> $QUOTE_CONTENT" >> README.md
