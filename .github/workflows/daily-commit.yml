@@ -1,23 +1,21 @@
 name: Daily Auto Commit
-
 on:
   schedule:
-    # Runs at 12:00 UTC (adjust as needed)
+    # Fixed cron syntax - needs 5 asterisks
     - cron: '0 12 * * *'
   
   # Allow manual trigger for testing
   workflow_dispatch:
-
 jobs:
   auto-commit:
     runs-on: ubuntu-latest
+    # Add explicit permissions
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          # Need to use token with permission to push
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Git User
         run: |
@@ -30,31 +28,67 @@ jobs:
           CURRENT_DATE=$(date)
           SYSTEM_INFO=$(uname -a)
           QUOTE_DATA=$(curl -s https://api.quotable.io/random)
-          QUOTE_CONTENT=$(echo $QUOTE_DATA | jq -r '.content')
-          QUOTE_AUTHOR=$(echo $QUOTE_DATA | jq -r '.author')
+          QUOTE_CONTENT=$(echo "$QUOTE_DATA" | jq -r '.content')
+          QUOTE_AUTHOR=$(echo "$QUOTE_DATA" | jq -r '.author')
           
           # Update the log file
           echo "Last updated: $CURRENT_DATE" > update_log.txt
           echo "System info: $SYSTEM_INFO" >> update_log.txt
           echo "Random quote of the day: $QUOTE_CONTENT - $QUOTE_AUTHOR" >> update_log.txt
           
-          # Check if README exists
+          # Create a temporary file to hold the new content after the quote section
           if [ -f README.md ]; then
-            # Check if the README already has a quote section
+            # Extract the part before "## Today's Quote" (if it exists)
             if grep -q "## Today's Quote" README.md; then
-              # Update existing quote section using sed
-              sed -i '/## Today'"'"'s Quote/,/^$/c\## Today'"'"'s Quote\n\n> '"$QUOTE_CONTENT"'\n> \n> — *'"$QUOTE_AUTHOR"'*\n\nLast updated: '"$CURRENT_DATE"'\n' README.md
+              grep -B 1000 "## Today's Quote" README.md | head -n -1 > temp_readme.md
             else
-              # Append quote section to the end of the README
-              echo -e "\n## Today's Quote\n\n> $QUOTE_CONTENT\n> \n> — *$QUOTE_AUTHOR*\n\nLast updated: $CURRENT_DATE\n" >> README.md
+              # If no quote section, just copy the whole file
+              cp README.md temp_readme.md
+              # And add a newline
+              echo "" >> temp_readme.md
             fi
+            
+            # Add the new quote section
+            echo "## Today's Quote" >> temp_readme.md
+            echo "" >> temp_readme.md
+            echo "> $QUOTE_CONTENT" >> temp_readme.md
+            echo ">" >> temp_readme.md
+            echo "> — *$QUOTE_AUTHOR*" >> temp_readme.md
+            echo "" >> temp_readme.md
+            echo "Last updated: $CURRENT_DATE" >> temp_readme.md
+            
+            # Replace the old README with the new one
+            mv temp_readme.md README.md
           else
-            # Create a new README with the quote
-            echo -e "# Daily Auto Commit\n\nThis repository demonstrates automation with GitHub Actions.\n\n## Today's Quote\n\n> $QUOTE_CONTENT\n> \n> — *$QUOTE_AUTHOR*\n\nLast updated: $CURRENT_DATE\n" > README.md
+            # If README doesn't exist, create a basic one
+            cat > README.md << EOF
+# Daily Auto Commit
+This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
+## What it does
+- Runs automatically every day at 12:00 UTC
+- Updates a log file with the current date and system information
+- Fetches a random quote from an API
+- **Updates this README with the quote of the day**
+- Commits and pushes these changes automatically
+## Why I built this
+This project showcases my technical abilities with:
+- GitHub Actions and CI/CD workflows
+- Automation scripts
+- Git operations from within workflows
+- Working with external APIs
+- Dynamic content generation
+## Today's Quote
+
+> $QUOTE_CONTENT
+> 
+> — *$QUOTE_AUTHOR*
+
+Last updated: $CURRENT_DATE
+EOF
           fi
       
       - name: Commit and Push
         run: |
           git add .
           git commit -m "this project cheeses my github" || echo "No changes to commit"
-          git push origin HEAD
+          git push
