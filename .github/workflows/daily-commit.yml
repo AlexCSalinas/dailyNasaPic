@@ -16,7 +16,7 @@ jobs:
       - name: Setup Git
         run: |
           git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.email 'alexsali@umich.edu'
       
       - name: Create Update Script
         run: |
