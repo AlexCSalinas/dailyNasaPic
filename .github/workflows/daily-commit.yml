@@ -36,56 +36,20 @@ jobs:
           echo "System info: $SYSTEM_INFO" >> update_log.txt
           echo "Random quote of the day: $QUOTE_CONTENT - $QUOTE_AUTHOR" >> update_log.txt
           
-          # Create a temporary file to hold the new content after the quote section
-          if [ -f README.md ]; then
-            # Extract the part before "## Today's Quote" (if it exists)
-            if grep -q "## Today's Quote" README.md; then
-              grep -B 1000 "## Today's Quote" README.md | head -n -1 > temp_readme.md
-            else
-              # If no quote section, just copy the whole file
-              cp README.md temp_readme.md
-              # And add a newline
-              echo "" >> temp_readme.md
-            fi
-            
-            # Add the new quote section
-            echo "## Today's Quote" >> temp_readme.md
-            echo "" >> temp_readme.md
-            echo "> $QUOTE_CONTENT" >> temp_readme.md
-            echo ">" >> temp_readme.md
-            echo "> — *$QUOTE_AUTHOR*" >> temp_readme.md
-            echo "" >> temp_readme.md
-            echo "Last updated: $CURRENT_DATE" >> temp_readme.md
-            
-            # Replace the old README with the new one
-            mv temp_readme.md README.md
-          else
-            # If README doesn't exist, create a basic one
-            cat > README.md << EOF
-# Daily Auto Commit
-This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
-## What it does
-- Runs automatically every day at 12:00 UTC
-- Updates a log file with the current date and system information
-- Fetches a random quote from an API
-- **Updates this README with the quote of the day**
-- Commits and pushes these changes automatically
-## Why I built this
-This project showcases my technical abilities with:
-- GitHub Actions and CI/CD workflows
-- Automation scripts
-- Git operations from within workflows
-- Working with external APIs
-- Dynamic content generation
-## Today's Quote
-
-> $QUOTE_CONTENT
-> 
-> — *$QUOTE_AUTHOR*
-
-Last updated: $CURRENT_DATE
-EOF
-          fi
+          # Use awk to extract everything before the quote section
+          awk '/## Today'"'"'s Quote/{exit} {print}' README.md > temp_readme.md || true
+          
+          # Add the new quote section
+          echo "## Today's Quote" >> temp_readme.md
+          echo "" >> temp_readme.md
+          echo "> $QUOTE_CONTENT" >> temp_readme.md
+          echo ">" >> temp_readme.md
+          echo "> — *$QUOTE_AUTHOR*" >> temp_readme.md
+          echo "" >> temp_readme.md
+          echo "Last updated: $CURRENT_DATE" >> temp_readme.md
+          
+          # Replace the old README with the new one
+          mv temp_readme.md README.md || true
       
       - name: Commit and Push
         run: |
