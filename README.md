@@ -19,7 +19,7 @@ The GitHub Action workflow:
 1. Runs on a schedule (daily)
 2. Fetches a random inspirational quote
 3. Updates both a log file and this README
-4. Commits and pushes the changes Status: ![Daily Auto Commit](https://github.com/AlexCSalinas/daily-auto-commit/actions/workflows/daily-commit.yml/badge.svg)
+4. Commits and pushes the changes 
 ## Today's Quote
 
 > Every day is a chance to automate something new.
