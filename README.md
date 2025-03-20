@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-03-19)
-**Blue Ghost's Diamond Ring**
+## Today's Astronomy Picture (2025-03-20)
+**The Solar Eclipse Analemma Project**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2503/eclipse-shot-from-blue-ghost-crop1024.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2503/HunterWells_submission3-3labelled1024.jpg)
 
 ### Description
-On March 14 the Full Moon slid through Earth's dark umbral shadow and denizens of planet Earth were treated to a total lunar eclipse. Of course, from the Moon's near side that same astronomical syzygy was seen as a solar eclipse. Operating in the Mare Crisium on the lunar surface, the Blue Ghost lander captured this video frame of Earth in silhouette around 3:30am CDT, just as the Sun was emerging from behind the terrestrial disk. From Blue Ghost's lunar perspective the beautiful diamond ring effect, familiar to earthbound solar eclipse watchers, is striking. Since Earth appears about four times the apparent size of the Sun from the lunar surface the inner solar corona, the atmosphere of the Sun most easily seen from Earth during a total solar eclipse, is hidden from view. Still, scattering in Earth's dense atmosphere creates the glowing band of sunlight embracing our fair planet.
+Recorded from 2024 March 10, to 2025 March 1, this composited series of images reveals a pattern in the seasonal drift of the Sun's daily motion through planet Earth's sky. Known to some as an analemma, the figure-eight curve was captured in exposures taken on the indicated dates only at 18:38 UTC from the exact same location south of Stephenville, Texas. The Sun's position on the 2024 solstice dates of June 20 and December 21 would be at the top and bottom of the curve and correspond to the astronomical beginning of summer and winter in the north. Points that lie along the curve half-way between the solstices would mark the equinoxes. The 2024 equinox on September 22, and in 2025 the equinox on March 20 (today) are the start of northern fall and spring. And since one of the exposures was made on 2024 April 8 from the Stephenville location at 18:38:40 UTC, this analemma project also reveals the solar corona in planet Earth's sky during a total solar eclipse.
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: Hunter Wells
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -35,4 +35,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Wed Mar 19 12:42:27 UTC 2025
+Last updated: Thu Mar 20 12:41:20 UTC 2025
