@@ -28,7 +28,6 @@ This project showcases:
 - Automation scripts
 - Git operations from within workflows
 - Working with external APIs
-- *Most importantly, it shows how green boxes really don't mean much in terms of skills.*
 
 ## How it works
 The GitHub Action workflow:
