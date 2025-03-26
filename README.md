@@ -1,4 +1,5 @@
-# Daily Auto Commit with NASA Astronomy
+# Daily Nasa Pic
+
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
 ## Today's Astronomy Picture (2025-03-26)
