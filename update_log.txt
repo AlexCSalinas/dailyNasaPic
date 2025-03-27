@@ -1,3 +1,3 @@
-Last updated: Wed Mar 26 12:43:28 UTC 2025
-System info: Linux fv-az1444-243 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Star Formation in the Pacman Nebula (2025-03-26)
+Last updated: Thu Mar 27 12:43:29 UTC 2025
+System info: Linux fv-az1910-89 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: Messier 81 (2025-03-27)
