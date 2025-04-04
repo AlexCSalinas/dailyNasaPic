@@ -1,3 +1,3 @@
-Last updated: Thu Apr  3 12:44:42 UTC 2025
-System info: Linux fv-az2035-97 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: The Da Vinci Glow (2025-04-03)
+Last updated: Fri Apr  4 12:43:01 UTC 2025
+System info: Linux fv-az2224-99 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: Hickson 44 in Leo (2025-04-04)
