@@ -80,7 +80,6 @@ echo "- GitHub Actions and CI/CD workflows" >> README.md
 echo "- Automation scripts" >> README.md
 echo "- Git operations from within workflows" >> README.md
 echo "- Working with external APIs" >> README.md
-echo "- *Most importantly, it shows how green boxes really don't mean much in terms of skills.*" >> README.md
 echo "" >> README.md
 
 echo "## How it works" >> README.md
