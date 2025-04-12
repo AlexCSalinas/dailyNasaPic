@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-04-11)
-**The ISS Meets Venus**
+## Today's Astronomy Picture (2025-04-12)
+**Moon Near the Edge**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/Venus-ISSsingleframe1100c.jpeg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/PlataformaRecorteHorizontalRedes1024.jpg)
 
 ### Description
-Made with a telescope shaded from bright sunlight by an umbrella, on April 5 a well-planned video captured a crescent Venus shining in clear daytime skies from Shoreline, Washington, USA at 11:57AM Pacific Time. It also caught the International Space Station in this single video frame. In close conjunction with the bright planet, the faint outline of the orbital outpost seen at a range of about 400 kilometers appears to be similar in size to the slender planetary crescent. Of course the ISS is much smaller than Venus. Now appearing as planet Earth's brilliant morning star and climbing above the eastern horizon in predawn skies, inner planet Venus was nearly 45 million kilometers from Shoreline.
+Most of us watch the Moon at night. But the Moon spends nearly as many daylight hours above our horizon, though in bright daytime skies the lunar disk looks pale and can be a little harder to see. Of course in daytime skies the Moon also appears to cycle through its phases, shining by reflected sunlight as it orbits our fair planet. For daytime moonwatchers, the Moon is probably easier to spot when the visible sunlit portion of the lunar disk is large and waxing following first quarter or waning approaching its third quarter phase. And though it might look unusual, a daytime moon is often seen even in urban skies. Captured here in a telephoto snapshot taken on March 12, a waxing daytime Moon is aligned near the edge of a popular observation deck that overlooks New York City's borough of Manahattan.
 
-Image Credit & Copyright: A.J. Smadi
+Image Credit & Copyright: Jordi Coy
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Fri Apr 11 12:43:31 UTC 2025
+Last updated: Sat Apr 12 12:38:59 UTC 2025
