@@ -1,3 +1,3 @@
-Last updated: Mon Apr 14 12:45:26 UTC 2025
-System info: Linux fv-az1279-117 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: The Galactic Center in Radio from MeerKAT (2025-04-14)
+Last updated: Tue Apr 15 12:45:00 UTC 2025
+System info: Linux fv-az1695-486 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: Planetary Nebula NGC 1514 from Webb (2025-04-15)
