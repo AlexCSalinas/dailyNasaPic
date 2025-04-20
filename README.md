@@ -1,15 +1,20 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-04-19)
-**Painting with Jupiter**
+## Today's Astronomy Picture (2025-04-20)
+**The Orion Nebula in Visible and Infrared**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/PIA21983JupiterLundh1024.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/M42_SpitzerCzernetz_1080.jpg)
 
 ### Description
-In digital brush strokes, Jupiter's signature atmospheric bands and vortices were used to form this interplanetary post-impressionist work of art. The creative image from citizen scientist Rick Lundh uses data from the Juno spacecraft's JunoCam. To paint on the digital canvas, a JunoCam image with contrasting light and dark tones was chosen for processing and an oil-painting software filter applied. The image data was captured during perijove 10. That was Juno's December 16, 2017 close encounter with the solar system's ruling gas giant. At the time the spacecraft was cruising about 13,000 kilometers above northern Jovian cloud tops. Now in an extended mission, Juno has explored Jupiter and its moons since entering orbit around Jupiter in July of 2016.
+The Great Nebula in Orion is a colorful place.  Visible to the unaided eye, it appears as a small fuzzy patch in the constellation of Orion.  Long exposure, multi-wavelength images like this, however, show the Orion Nebula to be a busy neighborhood of young stars, hot gas, and dark dust.  This digital composite features not only three colors of visible light but four colors of infrared light taken by NASA's orbiting Spitzer Space Telescope as well.  The power behind much of the Orion Nebula (M42) is the Trapezium - four of the brightest stars in the nebula.  Many of the filamentary structures visible are actually shock waves - fronts where fast moving material encounters slow moving gas.  The Orion Nebula spans about 40 light years and is located about 1500 light years away in the same spiral arm of our Galaxy as the Sun.
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: 
+Infrared: NASA, 
+Spitzer Space Telescope;
+Visible: 
+Oliver Czernetz, 
+Siding Spring Obs.
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +39,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sat Apr 19 12:39:19 UTC 2025
+Last updated: Sun Apr 20 12:39:24 UTC 2025
