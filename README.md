@@ -1,20 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-04-20)
-**The Orion Nebula in Visible and Infrared**
+## Today's Astronomy Picture (2025-04-21)
+**Galaxy Lenses Galaxy from Webb**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/M42_SpitzerCzernetz_1080.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/GalaxiesLens_Webb_960.jpg)
 
 ### Description
-The Great Nebula in Orion is a colorful place.  Visible to the unaided eye, it appears as a small fuzzy patch in the constellation of Orion.  Long exposure, multi-wavelength images like this, however, show the Orion Nebula to be a busy neighborhood of young stars, hot gas, and dark dust.  This digital composite features not only three colors of visible light but four colors of infrared light taken by NASA's orbiting Spitzer Space Telescope as well.  The power behind much of the Orion Nebula (M42) is the Trapezium - four of the brightest stars in the nebula.  Many of the filamentary structures visible are actually shock waves - fronts where fast moving material encounters slow moving gas.  The Orion Nebula spans about 40 light years and is located about 1500 light years away in the same spiral arm of our Galaxy as the Sun.
+Is this one galaxy or two? Although it looks like one, the answer is two. One path to this happening is when a small galaxy collides with a larger galaxy and ends up in the center. But in the featured image, something more rare is going on. Here, the central light-colored elliptical galaxy is much closer than the blue and red-colored spiral galaxy that surrounds it. This can happen when near and far galaxies are exactly aligned, causing the gravity of the near galaxy to pull the light from the far galaxy around it in an effect called gravitational lensing. The featured galaxy double was taken by the Webb Space Telescope and shows a complete Einstein ring, with great detail visible for both galaxies.  Galaxy lenses like this can reveal new information about the mass distribution of the foreground lens and the light distribution of the background source.
 
-Image Credit & Copyright: 
-Infrared: NASA, 
-Spitzer Space Telescope;
-Visible: 
-Oliver Czernetz, 
-Siding Spring Obs.
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -39,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sun Apr 20 12:39:24 UTC 2025
+Last updated: Mon Apr 21 12:43:25 UTC 2025
