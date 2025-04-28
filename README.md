@@ -1,15 +1,17 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-04-27)
-**IC 418: The Spirograph Nebula**
+## Today's Astronomy Picture (2025-04-28)
+**Gum 37 and the Southern Tadpoles**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/Spirograph_Hubble_960.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2504/Gum37Hoo_Bozon_960.jpg)
 
 ### Description
-What is creating the strange texture of IC 418?  Dubbed the Spirograph Nebula for its resemblance to drawings from a cyclical drawing tool, planetary nebula IC 418 shows patterns that are not well understood. Perhaps they are related to chaotic winds from the variable central star, which changes brightness unpredictably in just a few hours.  By contrast, evidence indicates that only a few million years ago, IC 418 was probably a well-understood star similar to our Sun.  Only a few thousand years ago, IC 418 was probably a common red giant star.  Since running out of nuclear fuel, though, the outer envelope has begun expanding outward leaving a hot remnant core destined to become a white-dwarf star, visible in the image center. The light from the central core excites surrounding atoms in the nebula causing them to glow. IC 418 lies about 2000 light-years away and spans 0.3 light-years across.  This false-color image taken from the Hubble Space Telescope reveals the unusual details.
+This cosmic skyscape features glowing gas and dark dust clouds alongside the young stars of NGC 3572.  A beautiful emission nebula and star cluster, it sails far southern skies within the nautical constellation Carina.  Stars from NGC 3572 are toward top center in the telescopic frame that would measure about 100 light-years across at the cluster's estimated distance of 9,000 light-years.  The visible interstellar gas and dust, shown in colors of the Hubble palette, is part of the star cluster's natal molecular cloud, itself cataloged as Gum 37. Dense streamers of material within the nebula, eroded by stellar winds and radiation, clearly trail away from the energetic young stars.  They are likely sites of ongoing star formation with shapes reminiscent of the Tadpoles of IC 410 -- better known to northern skygazers.  In the coming tens to hundreds of millions of years, gas and stars in the cluster will be dispersed though, by gravitational tides and by violent supernova explosions that end the short lives of the massive cluster stars.
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: 
+Francis Bozon & Cecil Navick
+(AstroA. R. O.)
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +36,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sun Apr 27 12:40:08 UTC 2025
+Last updated: Mon Apr 28 12:54:01 UTC 2025
