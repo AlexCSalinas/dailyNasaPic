@@ -1,15 +1,16 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-05-04)
-**Spin up of a Supermassive Black Hole**
+## Today's Astronomy Picture (2025-05-05)
+**Planet Lines Across Water**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/blackholedisk_cfa_1080.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/PlanetLines_Hervas_960.jpg)
 
 ### Description
-How fast can a black hole spin?  If any object made of regular matter spins too fast -- it breaks apart. But a black hole might not be able to break apart -- and its maximum spin rate is really unknown. Theorists usually model rapidly rotating black holes with the Kerr solution to Einstein's General Theory of Relativity, which predicts several amazing and unusual things.  Perhaps its most easily testable prediction, though, is that matter entering a maximally rotating black hole should be last seen orbiting at near the speed of light, as seen from far away. This prediction was tested by NASA's NuSTAR and ESA's XMM satellites by observing the supermassive black hole at the center of spiral galaxy NGC 1365. The near light-speed limit was confirmed by measuring the heating and spectral line broadening of nuclear emissions at the inner edge of the surrounding accretion disk. Pictured here is an artist's illustration depicting an accretion disk of normal matter swirling around a black hole, with a jet emanating from the top. Since matter randomly falling into the black hole should not spin up a black hole this much, the NuSTAR and XMM measurements also validate the existence of the  surrounding accretion disk.   Hole New Worlds: It's Black Hole Week at NASA!
+What’s causing those lines? Objects in the sky sometimes appear reflected as lines across water — but why? If the water’s surface is smooth, then reflected objects would appear similarly -- as spots. But if the water is choppy, then there are many places where light from the object can reflect off the water and still come to you -- and so together form, typically, a line. The same effect is frequently seen for the Sun just before sunset and just after sunrise. Pictured about 10 days ago in Ibiza, Spain, images of the setting Moon, Venus (top), and Saturn (right, faint) were captured both directly and in line-reflected forms from the Mediterranean Sea. The other bright object on the right with a water-reflected line is a beacon on a rock to warn passing boats.   Explore Your Universe: Random APOD Generator
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: 
+Jose Antonio Hervas
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +35,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sun May  4 12:41:16 UTC 2025
+Last updated: Mon May  5 12:47:00 UTC 2025
