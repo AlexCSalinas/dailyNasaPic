@@ -1,15 +1,16 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-05-26)
-**Spiral Galaxy NGC 2566 from Webb**
+## Today's Astronomy Picture (2025-05-27)
+**Zeta and Rho Ophiuchi with Milky Way**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/NGC2256_Webb_960.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/RhoZeta_Nowak_960.jpg)
 
 ### Description
-What’s happening in the center of spiral galaxy NGC 2566? First, the eight rays that appear to be coming out of the center in the featured infrared image are not real — they are diffraction spikes caused by the mechanical structure of the Webb space telescope itself. The center of NGC 2566 is bright but not considered unusual, which means that it likely contains a supermassive black hole, although currently not very active. At only 76 million light years away, the light we see from NGC 2566 today left when dinosaurs roamed the Earth. The picturesque galaxy is close enough so that Earthly telescopes, including Webb and Hubble, can resolve the turbulent clouds of gas and dust where stars can form and so allows study of stellar evolution. NGC 2566, similar in size to our Milky Way Galaxy, is notable for its bright central bar and its prominent outer spiral arms.
+Behold one of the most photogenic regions of the night sky, captured impressively.  Featured, the band of our Milky Way Galaxy runs diagonally along the bottom-left corner, while the colorful Rho Ophiuchi cloud complex is visible just right of center and the large red circular Zeta Ophiuchi Nebula appears near the top.  In general, red emanates from nebulas glowing in the light of excited hydrogen gas, while blue marks interstellar dust preferentially reflecting the light of bright young stars.  Thick dust usually appears dark brown.  Many iconic objects of the night sky appear, including (can you find them?) the bright star Antares, the globular star cluster M4, and the Blue Horsehead nebula. This wide field composite, taken over 17 hours, was captured from South Africa last June.    Explore Your Universe: Random APOD Generator
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: 
+Ireneusz Nowak
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +35,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Mon May 26 12:46:10 UTC 2025
+Last updated: Tue May 27 12:49:24 UTC 2025

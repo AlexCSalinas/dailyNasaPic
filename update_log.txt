@@ -1,3 +1,3 @@
-Last updated: Mon May 26 12:46:10 UTC 2025
-System info: Linux fv-az1788-459 6.11.0-1014-azure #14~24.04.1-Ubuntu SMP Thu Apr 24 17:41:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Spiral Galaxy NGC 2566 from Webb (2025-05-26)
+Last updated: Tue May 27 12:49:24 UTC 2025
+System info: Linux fv-az1384-480 6.11.0-1014-azure #14~24.04.1-Ubuntu SMP Thu Apr 24 17:41:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: Zeta and Rho Ophiuchi with Milky Way (2025-05-27)
