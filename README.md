@@ -1,16 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-05-27)
-**Zeta and Rho Ophiuchi with Milky Way**
+## Today's Astronomy Picture (2025-05-28)
+**Herbig-Haro 24**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/RhoZeta_Nowak_960.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/hs-2015-42-a-largeHH241024.jpg)
 
 ### Description
-Behold one of the most photogenic regions of the night sky, captured impressively.  Featured, the band of our Milky Way Galaxy runs diagonally along the bottom-left corner, while the colorful Rho Ophiuchi cloud complex is visible just right of center and the large red circular Zeta Ophiuchi Nebula appears near the top.  In general, red emanates from nebulas glowing in the light of excited hydrogen gas, while blue marks interstellar dust preferentially reflecting the light of bright young stars.  Thick dust usually appears dark brown.  Many iconic objects of the night sky appear, including (can you find them?) the bright star Antares, the globular star cluster M4, and the Blue Horsehead nebula. This wide field composite, taken over 17 hours, was captured from South Africa last June.    Explore Your Universe: Random APOD Generator
+This might look like a double-bladed lightsaber, but these two cosmic jets actually beam outward from a newborn star in a galaxy near you. Constructed from Hubble Space Telescope image data, the stunning scene spans about half a light-year across Herbig-Haro 24 (HH 24), some 1,300 light-years or 400 parsecs away in the stellar nurseries of the Orion B molecular cloud complex. Hidden from direct view, HH 24's central protostar is surrounded by cold dust and gas flattened into a rotating accretion disk. As material from the disk falls toward the young stellar object, it heats up. Opposing jets are blasted out along the system's rotation axis. Cutting through the region's interstellar matter, the narrow, energetic jets produce a series of glowing shock fronts along their path.
 
-Image Credit & Copyright: 
-Ireneusz Nowak
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -35,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Tue May 27 12:49:24 UTC 2025
+Last updated: Wed May 28 12:49:07 UTC 2025
