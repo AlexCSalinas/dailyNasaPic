@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-05-28)
-**Herbig-Haro 24**
+## Today's Astronomy Picture (2025-05-29)
+**Irregular Dwarf Galaxy Sextans A**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/hs-2015-42-a-largeHH241024.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2505/sexa_gemsbock_cdk_pub1024.jpg)
 
 ### Description
-This might look like a double-bladed lightsaber, but these two cosmic jets actually beam outward from a newborn star in a galaxy near you. Constructed from Hubble Space Telescope image data, the stunning scene spans about half a light-year across Herbig-Haro 24 (HH 24), some 1,300 light-years or 400 parsecs away in the stellar nurseries of the Orion B molecular cloud complex. Hidden from direct view, HH 24's central protostar is surrounded by cold dust and gas flattened into a rotating accretion disk. As material from the disk falls toward the young stellar object, it heats up. Opposing jets are blasted out along the system's rotation axis. Cutting through the region's interstellar matter, the narrow, energetic jets produce a series of glowing shock fronts along their path.
+Grand spiral galaxies often seem to get all the attention, flaunting young, bright, blue star clusters and pinkish star forming regions along graceful, symmetric spiral arms. But small galaxies form stars too, like irregular dwarf galaxy Sextans A. Its young star clusters and star forming regions are gathered into a gumdrop-shaped region a mere 5,000 light-years across. Seen toward the navigational constellation Sextans, the small galaxy lies some 4.5 million light-years distant. That puts it near the outskirts of the local group of galaxies, that includes the large, massive spirals Andromeda and our own Milky Way. Brighter Milky Way foreground stars appear spiky and yellowish in this colorful telescopic view of Sextans A.
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: Franz Hofmann
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Wed May 28 12:49:07 UTC 2025
+Last updated: Thu May 29 12:47:55 UTC 2025
