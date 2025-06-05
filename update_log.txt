@@ -1,3 +1,3 @@
-Last updated: Wed Jun  4 12:49:53 UTC 2025
-System info: Linux fv-az1075-639 6.11.0-1015-azure #15~24.04.1-Ubuntu SMP Thu May  1 02:52:08 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: A Milky Road to the Rubin Observatory (2025-06-04)
+Last updated: Thu Jun  5 12:49:15 UTC 2025
+System info: Linux fv-az1945-281 6.11.0-1015-azure #15~24.04.1-Ubuntu SMP Thu May  1 02:52:08 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: Savudrija Star Trails (2025-06-05)
