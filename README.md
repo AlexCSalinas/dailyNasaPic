@@ -1,21 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-06-15)
-**Two Worlds, One Sun**
+## Today's Astronomy Picture (2025-06-16)
+**APOD is 30 Years Old Today**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2506/TwoWorldsOneSun_Bouic_1080.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2506/APODStarryNight30thanniversary1024.jpg)
 
 ### Description
-How different does sunset appear from Mars than from Earth? For comparison, two images of our common star were taken at sunset, one from Earth and one from Mars. These images were scaled to have the same angular width and are featured here side-by-side. A quick inspection will reveal that the Sun appears slightly smaller from Mars than from Earth. This makes sense since Mars is 50% further from the Sun than Earth. More striking, perhaps, is that the Martian sunset is noticeably bluer near the Sun than the typically orange colors near the setting Sun from Earth. The reason for the blue hues from Mars is not fully understood, but thought to be related to forward scattering properties of Martian dust. The terrestrial sunset was taken in 2012 March from Marseille, France, while the Martian sunset was captured in 2015 by NASA's robotic Curiosity rover from Gale crater on Mars.   APOD Turns 30!: Free Public Lecture in Cork, Ireland on June 24
+APOD is 30 years old today. In celebration, today's picture uses past APODs as tiles arranged to create a single pixelated image that might remind you of one of the most well-known and evocative depictions of planet Earth's night sky. In fact, this Starry Night consists of 1,836 individual images contributed to APOD over the last 5 years in a mosaic of 32,232 tiles. Today, APOD would like to offer a sincere thank you to our contributors, volunteers, and readers. Over the last 30 years your continuing efforts have allowed us to enjoy, inspire, and share a discovery of the cosmos.
 
-Image Credit & Copyright: 
-Damia Bouic; 
- Right Image Credit:  NASA,
-JPL-Caltech,
-MSSS;
- Digital processing: 
-Damia Bouic
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -40,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sun Jun 15 12:43:33 UTC 2025
+Last updated: Mon Jun 16 12:50:46 UTC 2025
