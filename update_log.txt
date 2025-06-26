@@ -1,3 +1,3 @@
-Last updated: Wed Jun 25 12:50:55 UTC 2025
-System info: Linux fv-az1786-817 6.11.0-1015-azure #15~24.04.1-Ubuntu SMP Thu May  1 02:52:08 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Rubin's First Look: A Sagittarius Skyscape (2025-06-25)
+Last updated: Thu Jun 26 12:50:07 UTC 2025
+System info: Linux fv-az1618-26 6.11.0-1015-azure #15~24.04.1-Ubuntu SMP Thu May  1 02:52:08 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NASA APOD: The Seagull Nebula (2025-06-26)
