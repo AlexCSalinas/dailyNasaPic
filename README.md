@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-07-17)
-**3I/ATLAS**
+## Today's Astronomy Picture (2025-07-18)
+**ISS Meets Saturn**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2507/noirlab2522a_3i1056.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2507/ISSMeetsSaturn3_1024.jpg)
 
 ### Description
-Discovered on July 1 with the NASA-funded ATLAS (Asteroid Terrestrial-impact Last Alert, System) survey telescope in Rio Hurtado, Chile, 3I/ATLAS is so designated as the third known interstellar object to pass through our Solar System It follows 1I/ʻOumuamua in 2017 and the comet 2I/Borisov in 2019.  Also known as C/2025 N1, 3I/ATLAS is clearly a comet, its diffuse cometary coma, a cloud of gas and dust surrounding an icy nucleus, is easily seen in these images from the large Gemini North telescope on Maunakea, Hawai‘i. The left panel tracks the comet as it moves across the sky against fixed background stars in successive exposures. Three different filters were used, shown in red, green, and blue. In the right panel the multiple exposures are registered and combined to form a single image of the comet. The comet's interstellar origin is also clear from its orbit, determined to be an eccentric, highly hyperbolic orbit that does not loop back around the Sun and will return 3I/ATLAS to interstellar space. Not a threat to planet Earth, the inbound interstellar interloper is now within the Jupiter's orbital distance of the Sun, while its closest approach to the Sun will bring it just within the orbital distance of Mars.
+This month, bright planet Saturn rises in evening skies, its rings oriented nearly edge-on when viewed from planet Earth. And in the early morning hours on July 6, it posed very briefly with the International Space Station when viewed from a location in Federal Way, Washington, USA. This well-planned image, a stack of video frames, captures their momentary conjunction in the same telescopic field of view. With the ISS in low Earth orbit, space station and gas giant planet were separated by almost 1.4 billion kilometers. Their apparent sizes are comparable but the ISS was much brighter than Saturn and the ringed planet's brightness has been increased for visibility in the stacked image. Precise timing and an exact location were needed to capture the ISS/Saturn conjunction.
 
-Image Credit & Copyright: Public Domain
+Image Credit & Copyright: A.J. Smadi
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Thu Jul 17 12:51:57 UTC 2025
+Last updated: Fri Jul 18 12:53:09 UTC 2025
