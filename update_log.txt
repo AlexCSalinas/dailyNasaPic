@@ -1,3 +1,3 @@
-Last updated: Sat Jul 19 12:47:42 UTC 2025
+Last updated: Sun Jul 20 12:48:14 UTC 2025
 System info: Linux pkrvmq0rgcvqdmg 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Messier 6 (2025-07-19)
+NASA APOD: Lunar Nearside (2025-07-20)
