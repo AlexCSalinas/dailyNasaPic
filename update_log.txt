@@ -1,3 +1,3 @@
-Last updated: Mon Jul 21 12:53:44 UTC 2025
+Last updated: Tue Jul 22 12:53:40 UTC 2025
 System info: Linux pkrvmq0rgcvqdmg 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Cat's Paw Nebula from Webb Space Telescope (2025-07-21)
+NASA APOD: A Double Detonation Supernova (2025-07-22)
