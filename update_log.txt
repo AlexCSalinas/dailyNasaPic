@@ -1,3 +1,3 @@
-Last updated: Sat Aug  2 12:48:50 UTC 2025
+Last updated: Sun Aug  3 12:51:45 UTC 2025
 System info: Linux pkrvmjbmru5nbw0 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Fireflies, Meteors, and Milky Way (2025-08-02)
+NASA APOD: Milky Way and Exploding Meteor (2025-08-03)
