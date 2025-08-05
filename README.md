@@ -1,17 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-08-04)
-**Blue Arcs Toward Andromeda**
+## Today's Astronomy Picture (2025-08-05)
+**NGC 6072: A Complex Planetary Nebula from Webb**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2508/M31Oxy_Collab_960.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2508/Ngc6072_webb_960.jpg)
 
 ### Description
-What are these gigantic blue arcs near the Andromeda Galaxy (M31)?  Discovered in 2022 by amateur astronomers, the faint arcs -- dubbed SDSO 1 -- span nearly the same angular size as M31 itself.  At first, their origin was a mystery: are they actually near the Andromeda Galaxy, or alternatively near to our Sun?  Now, over 550 hours of combined exposure and a collaboration between amateur and professional astronomers has revealed strong evidence for their true nature: SDSO 1 is not intergalactic, but a new class of planetary nebula within our galaxy.  Dubbed a Ghost Planetary Nebula (GPN), SDSO 1 is the first recognized member of a new subclass of faded planetary nebulas, along with seven others also recently identified.  Shown in blue are extremely faint oxygen emission from the shock waves, while the surrounding red is a hydrogen-emitting trail that indicates the GPN's age.
+Why is this nebula so complex? The Webb Space Telescope has imaged a nebula in great detail that is thought to have emerged from a Sun-like star. NGC 6072 has been resolved into one of the more unusual and complex examples of planetary nebula. The featured image is in infrared light with the red color highlighting cool hydrogen gas. Study of previous images of NGC 6072 indicated several likely outflows and two disks inside the jumbled gas, while the new Webb image resolves new features likely including one disk's edge protruding on the central left.  A leading origin hypothesis holds that the nebula's complexity is caused or enhanced by multiple outbursts from a star in a multi-star system near the center.
 
-Image Credit & Copyright: 
-Ogle et 
-al.
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -36,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Mon Aug  4 12:55:43 UTC 2025
+Last updated: Tue Aug  5 12:55:50 UTC 2025
