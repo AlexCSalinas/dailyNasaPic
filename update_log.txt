@@ -1,3 +1,3 @@
-Last updated: Tue Aug  5 12:55:50 UTC 2025
+Last updated: Wed Aug  6 12:55:41 UTC 2025
 System info: Linux pkrvmjbmru5nbw0 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: NGC 6072: A Complex Planetary Nebula from Webb (2025-08-05)
+NASA APOD: Meteor before Galaxy (2025-08-06)
