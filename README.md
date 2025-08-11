@@ -1,17 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-08-10)
-**Zodiacal Road**
+## Today's Astronomy Picture (2025-08-11)
+**Closest Ever Images Near the Sun**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2508/ZodiacalRoad_Merzlyakov_960.jpg)
+![Astronomy Picture of the Day](null)
 
 ### Description
-What's that strange light down the road? Dust orbiting the Sun. At certain times of the year, a band of sun-reflecting dust from the inner Solar System appears prominently just after sunset -- or just before sunrise -- and is called zodiacal light.  Although the origin of this dust is still being researched, a leading hypothesis holds that zodiacal dust originates mostly from faint Jupiter-family comets and slowly spirals into the Sun. Recent analysis of dust emitted by Comet 67P, visited by ESA's robotic Rosetta spacecraft, bolsters this hypothesis.  Pictured when climbing a road up to Teide National Park in the Canary Islands of Spain, a bright triangle of zodiacal light appeared in the distance soon after sunset. Captured on June 21, 2019, the scene includes bright Regulus, the alpha star of the constellation Leo, standing above center toward the left. The Beehive Star Cluster (M44) can be spotted below center, closer to the horizon and also immersed in the zodiacal glow.
+verybody sees the Sun.  Nobody's been there.  Starting in 2018, though, NASA launched the robotic Parker Solar Probe (PSP) to investigate regions near to the Sun for the first time.  The featured time-lapse video shows the view looking sideways from behind PSP's Sun shield in December during the closest approach of any human-made spacecraft to the Sun, looping down to only about five solar diameters above the Sun's hot surface.  The PSP's Wide Field Imager for Solar Probe (WISPR) cameras took these images over seven hours, but they are digitally compressed here into about 5 seconds.  The solar corona, including colliding coronal mass ejections (CMEs), is visible here in unprecedented detail, with stars passing far in the background.  The Sun is not only Earth's dominant energy source, but its variable solar wind also compresses Earth's atmosphere, triggers auroras, affects power grids, and can even damage orbiting communication satellites.
 
-Image Credit & Copyright: 
-Ruslan Merzlyakov  
-(astrorms)
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -36,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sun Aug 10 12:48:38 UTC 2025
+Last updated: Mon Aug 11 12:53:35 UTC 2025
