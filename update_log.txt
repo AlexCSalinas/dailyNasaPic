@@ -1,3 +1,3 @@
-Last updated: Sun Aug 17 12:46:42 UTC 2025
+Last updated: Mon Aug 18 12:52:44 UTC 2025
 System info: Linux pkrvmubgrv54qmi 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Asperitas Clouds Over New Zealand (2025-08-17)
+NASA APOD: NGC 1309: A Useful Spiral Galaxy (2025-08-18)
