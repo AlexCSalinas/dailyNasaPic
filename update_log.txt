@@ -1,3 +1,3 @@
-Last updated: Tue Aug 19 12:47:16 UTC 2025
+Last updated: Wed Aug 20 12:49:01 UTC 2025
 System info: Linux pkrvmubgrv54qmi 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
-NASA APOD: Giant Galaxies in Pavo (2025-08-19)
+NASA APOD: Perseid Meteors from Durdle Door (2025-08-20)
