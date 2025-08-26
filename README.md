@@ -1,17 +1,16 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-08-25)
-**The Meteor and the Star Cluster**
+## Today's Astronomy Picture (2025-08-26)
+**A Leaky Solar Prominence**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2508/MeteorPleiades_Alqasimi_960.jpg)
+![Astronomy Picture of the Day](null)
 
 ### Description
-Sometimes even the sky surprises you.  To see more stars and faint nebulosity in the Pleiades star cluster (M45), long exposures are made.  Many times, less interesting items appear on the exposures that were not intended -- but later edited out. These include stuck pixels, cosmic ray hits, frames with bright clouds or Earth's Moon, airplane trails, lens flares, faint satellite trails, and even insect trails.  Sometimes, though, something really interesting is caught by chance. That was just the case a few weeks ago in al-Ula, Saudi Arabia when a bright meteor streaked across during an hour-long exposure of the Pleiades. Along with the famous bright blue stars, less famous and less bright blue stars, and blue-reflecting dust surrounding the star cluster, the fast rock fragment created a distinctive green glow, likely due to vaporized metals.    Jigsaw Universe: Astronomy Puzzle of the Day
+What's hovering above the Sun?  A solar prominence. A prominence is a crest of hot gas expelled from the Sun's surface that is held aloft by the Sun's magnetic field.  Prominences can last for days, can suddenly explode into space, or just fall back to the Sun.  What decides a prominence's fate is how the Sun's complex magnetic field changes -- the field's direction can act like an offramp for trapped solar particles. The 3-second (repeating) time-lapse featured video was captured earlier this month from Ottawa, Ontario, Canada. It shows the development of a larger-than-Earth prominence as it appears to leak solar plasma back to the Sun, over the course of an hour. What is unusual is that the prominence appears to hover -- more simple and typical prominences form magnetic loops that connect back to the surface.  Many hours after this video ended, the hovering prominence disintegrated back into the Sun.    Explore the Universe: Random APOD Generator
 
 Image Credit & Copyright: 
-Yousif Alqasimi &  
-Essa Al Jasmi
+Andrea Girones
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -36,4 +35,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Mon Aug 25 12:49:38 UTC 2025
+Last updated: Tue Aug 26 12:50:52 UTC 2025
