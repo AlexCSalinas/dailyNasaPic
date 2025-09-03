@@ -1,16 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-09-02)
-**The Horsehead and Flame Nebulas**
+## Today's Astronomy Picture (2025-09-03)
+**Cir X-1: Jets in the Africa Nebula**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/OrionHorseHead_Stern_1080.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2508/CirX1_English_960.jpg)
 
 ### Description
-The Horsehead Nebula is one of the most famous nebulae on the sky.  It is visible as the dark indentation to the orange emission nebula at the far right of the featured picture.  The horse-head feature is dark because it is really an opaque dust cloud that lies in front of the bright emission nebula. Like clouds in Earth's atmosphere, this cosmic cloud has assumed a recognizable shape by chance.  After many thousands of years, the internal motions of the cloud will surely alter its appearance.  The emission nebula's orange color is caused by electrons recombining with protons to form hydrogen atoms.  Toward the lower left of the image is the Flame Nebula, an orange-tinged nebula that also contains intricate filaments of dark dust.
+How soon do jets form when a supernova gives birth to a neutron star?  The Africa Nebula provides clues.  This supernova remnant surrounds Circinus X-1, an X-ray emitting neutron star and the companion star it orbits.  The image, from the ThunderKAT collaboration on the MeerKAT radio telescope situated in South Africa, shows the bright core-and-lobe structure of Cir X-1’s currently active jets inside the nebula.  A mere 4600 years old, Cir X-1 could be the "Little Sister" of microquasar SS 433*.  However, the newly discovered bubble exiting from a ring-like hole in the upper right of the nebula, along with a ring to the bottom left, demonstrate that other jets previously existed.  Computer simulations indicate those jets formed within 100 years of the explosion and lasted up to 1000 years.  Surprisingly, to create the observed bubble, the jets need to be more powerful than young neutron stars were previously thought to produce.   Open Science: Browse 3,700+ codes in the Astrophysics Source Code Library
 
-Image Credit & Copyright: 
-Daniel Stern
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -35,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Tue Sep  2 12:48:20 UTC 2025
+Last updated: Wed Sep  3 12:45:19 UTC 2025
