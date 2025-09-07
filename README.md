@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-09-06)
-**Sardinia Sunset**
+## Today's Astronomy Picture (2025-09-07)
+**All the Water on Planet Earth**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/MangiabarcheTramonto1060.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/WaterlessEarth2_woodshole_960.jpg)
 
 ### Description
-When the sun sets on September 7, the Full Moon will rise. And on that date denizens around much of our fair planet, including parts of Antarctica, Australia, Asia, Europe, and Africa can witness a total lunar eclipse, with the Moon completely immersed in Earth's shadow. As the bright Full Moon first enters Earth's shadow it will darken, finally taking on a reddish hue during the total eclipse phase. In fact, the color of the Moon during a total lunar eclipse is due to reddened light from sunrises and sunsets around planet Earth. The reddened sunlight is scattered by a dense atmosphere into the planet's otherwise dark central shadow. When the sun set on August 22, this telephoto snapshot of red skies, blue sea, and the Mangiabarche Lighthouse was captured from Sant'Antioco, Sardinia, Italy.
+How much of planet Earth is made of water? Very little, actually. Although oceans of water cover about 70 percent of Earth's surface, these oceans are shallow compared to the Earth's radius. The featured illustration shows what would happen if all of the water on or near the surface of the Earth were bunched up into a ball. The radius of this ball would be only about 700 kilometers, less than half the radius of the Earth's Moon, but slightly larger than Saturn's moon Rhea which, like many moons in our outer Solar System, is mostly water ice. The next smallest ball depicts all of Earth's liquid fresh water, while the tiniest ball shows the volume of all of Earth's fresh-water lakes and rivers. How any of this water came to be on the Earth and whether any significant amount is trapped far beneath Earth's surface remain topics of research.
 
-Image Credit & Copyright: When the sun sets on September 7
+Image Credit & Copyright: Public Domain
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Sat Sep  6 12:39:03 UTC 2025
+Last updated: Sun Sep  7 12:39:51 UTC 2025
