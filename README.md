@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-09-11)
-**The Umbra of Earth**
+## Today's Astronomy Picture (2025-09-12)
+**Lunar Eclipse in Two Hemispheres**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/UmbraEarth1050.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/APODtwo_hemisphere_combined_no_text1065.jpg)
 
 ### Description
-The dark, inner shadow of planet Earth is called the umbra. Shaped like a cone extending into space, it has a circular cross section most easily seen during a lunar eclipse. And on the night of September 7/8 the Full Moon passed near the center of Earth's umbral cone, entertaining eclipse watchers around much of our fair planet, including parts of Antarctica, Australia, Asia, Europe, and Africa. Recorded from Zhangjiakou City, China, this timelapse composite image uses successive pictures from the total lunar eclipse, progressing left to right, to reveal the curved cross-section of the umbral shadow sliding across the Moon. Sunlight scattered by the atmosphere into Earth's umbra causes the lunar surface to appear reddened during totality. But close to the umbra's edge, the limb of the eclipsed Moon shows a distinct blue hue. The blue eclipsed moonlight originates as rays of sunlight pass through layers high in the upper stratosphere, colored by ozone that scatters red light and transmits blue. In the total phase of this leisurely lunar eclipse, the Moon was completely within the Earth's umbra for about 83 minutes.
+September's total lunar eclipse is tracked across night skies from both the northern and southern hemispheres of planet Earth in these two dramatic timelapse series. In the northern hemisphere sequence (top panel) the Moon’s trail arcs from the upper left to the lower right. It passes below bright planet Saturn, seen under mostly clear skies from the international campus of Zhejiang University in China at about 30 degrees north latitude. In contrast, the southern hemisphere view from Lake Griffin, Canberra, Australia at 35 degrees south latitude, records the Moon’s trail from the upper right to the lower left. Multiple lightning flashes from thunderstorms near the horizon appear reflected in the lake. Both sequences were photographed with 16mm wide-angle lenses and both cover the entire eclipse, with the darkened red Moon totally immersed in Earth's umbral shadow near center. But the different orientations of the Moon’s path across the sky reveal the perspective shifts caused by the views from northern vs. southern latitudes.
 
-Image Credit & Copyright: Wang Letian
+Image Credit & Copyright: Zhouyue Zhu
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Thu Sep 11 12:44:05 UTC 2025
+Last updated: Fri Sep 12 12:43:09 UTC 2025
