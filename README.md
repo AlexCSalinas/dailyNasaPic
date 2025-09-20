@@ -1,15 +1,15 @@
 # Daily Auto Commit with NASA Astronomy
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
-## Today's Astronomy Picture (2025-09-19)
-**The NGC 6914 Complex**
+## Today's Astronomy Picture (2025-09-20)
+**Gibbous vs Crescent**
 
-![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/NGC6914_1024.jpg)
+![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2509/20250919_Moon_Venus_logoC1052.jpg)
 
 ### Description
-A study in contrasts, this colorful cosmic skyscape features stars, dust, and glowing gas in the vicinity of NGC 6914. The interstellar complex of nebulae lies some 6,000 light-years away, toward the high-flying northern constellation Cygnus and the plane of our Milky Way Galaxy. Obscuring interstellar dust clouds appear in silhouette while reddish hydrogen emission nebulae, along with the dusty blue reflection nebulae, fill the cosmic canvas. Ultraviolet radiation from the massive, hot, young stars of the extensive Cygnus OB2 association ionize the region's atomic hydrogen gas, producing the characteristic red glow as protons and electrons recombine. Embedded Cygnus OB2 stars also provide the blue starlight strongly reflected by the dust clouds. The over one degree wide telescopic field of view spans about 100 light-years at the estimated distance of NGC 6914.
+rly risers around planet Earth have enjoyed a shining crescent Moon near brilliant Venus, close to the eastern horizon in recent morning twilight skies. And yesterday, on September 19, skygazers watching from some locations in Earth's northern hemisphere were also able to witness Venus, in the inner planet's waxing gibbous phase, pass behind the Moon's waning crescent. In fact, this telescopic snapshot was taken moments before that occultation of gibbous Venus by the crescent Moon began. The close-up view of the beautiful celestial alignment records Venus approaching part of the Moon's sunlit edge in clear daytime skies from the Swiss Alps. Tomorrow, the Sun will pass behind a New Moon. But to witness that partial solar eclipse on September 21, skygazers will need to watch from locations in planet Earth's southern hemisphere.
 
-Image Credit & Copyright: Tommy Lease
+Image Credit & Copyright: Luca Bartek
 
 [View full details on NASA's website](https://apod.nasa.gov/apod/astropix.html)
 
@@ -34,4 +34,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Fri Sep 19 12:46:03 UTC 2025
+Last updated: Sat Sep 20 12:41:22 UTC 2025
