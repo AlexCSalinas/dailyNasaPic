@@ -2,7 +2,7 @@
 This repository demonstrates my ability to automate GitHub workflows using GitHub Actions.
 
 ## Today's Astronomy Picture (2025-10-01)
-**NGC 6960: The Witch's Broom Nebula**
+**Astronomy Picture of the Day**
 
 ![Astronomy Picture of the Day](https://apod.nasa.gov/apod/image/2510/WitchBroom_Meyers_1080.jpg)
 
@@ -35,4 +35,4 @@ The GitHub Action workflow:
 3. Updates both a log file and this README
 4. Commits and pushes the changes
 
-Last updated: Wed Oct  1 12:49:21 UTC 2025
+Last updated: Thu Oct  2 12:44:28 UTC 2025
